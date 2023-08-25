@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/aboutTextView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            tools:text="UCEN" />
+
+        <TextView
+            android:id="@+id/aboutTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"
+            tools:text="Establish" />
+
+
+        <TextView
+            android:id="@+id/aboutTextView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            tools:text="INFRASTRUTURE" />
+
+        <TextView
+            android:id="@+id/aboutTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"
+            tools:text="GALLERY" />
+
+
+
+        <ImageButton
+            android:id="@+id/myImageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Hostel Overview"
+            android:src="@drawable/hostel_img" />
+
+
+        <ImageButton
+            android:id="@+id/myImageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Hostel overview 2"
+            android:src="@drawable/hostel1" />
+
+        <ImageButton
+            android:id="@+id/myImageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Mess hall"
+            android:src="@drawable/hostel2" />
+
+        <ImageButton
+            android:id="@+id/myImageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Mess hall img"
+            android:src="@drawable/hostel3" />
+        <ImageButton
+            android:id="@+id/myImageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Mess hall image"
+            android:src="@drawable/hostel4" />
+        <ImageButton
+            android:id="@+id/myImageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Room"
+            android:src="@drawable/hostel5" />
+        <ImageButton
+            android:id="@+id/myImageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Mullai"
+            android:src="@drawable/hostel6" />
+
+        <TextView
+            android:id="@+id/aboutTextView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Dean/Warden" />
+
+        <ImageButton
+            android:id="@+id/myImageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="WARDEN"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/w1" />
+
+        <TextView
+            android:id="@+id/aboutTextView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Warden1 name" />
+
+
+
+        <TextView
+            android:id="@+id/aboutTextView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Warden1 pos" />
+
+        <ImageButton
+            android:id="@+id/myImageButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="WARDEN"
+            android:src="@drawable/w2" />
+
+
+
+        <TextView
+            android:id="@+id/aboutTextView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Warden2 name" />
+        <TextView
+            android:id="@+id/aboutTextView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Warden2 pos" />
+
+        <ImageButton
+            android:id="@+id/myImageButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="WARDEN"
+            android:src="@drawable/w4" />
+
+        <TextView
+            android:id="@+id/aboutTextView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Warden3 name" />
+        <TextView
+            android:id="@+id/aboutTextView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Warden3 pos" />
+        <ImageButton
+            android:id="@+id/myImageButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="WARDEN"
+            android:src="@drawable/w3" />
+
+
+
+        <TextView
+            android:id="@+id/aboutTextView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="@color/black"
+            tools:text="Warden4 name" />
+        <TextView
+            android:id="@+id/aboutTextView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Warden4 pos" />
+
+        <TextView
+            android:id="@+id/aboutTextView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="@color/teal_700"
+            android:layout_margin="30dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textStyle="bold"
+            tools:text="Admission" />
+
+        <TextView
+            android:id="@+id/aboutTextView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Admission content" />
+
+        <TextView
+            android:id="@+id/aboutTextView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:textColor="@color/teal_700"
+            android:layout_margin="30dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textStyle="bold"
+            tools:text="Lodging" />
+
+        <TextView
+            android:id="@+id/aboutTextView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Lodging content" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
